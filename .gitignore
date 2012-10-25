@@ -1,5 +1,10 @@
 *.py[cod]
 
+# Django stuff
+*.log
+*.pot
+local_settings.py
+
 # C extensions
 *.so
 
