@@ -1,0 +1,44 @@
+#icon-listview > .ui-li {
+	display: block;
+    height : 150px;
+}
+
+.navi-item{
+	/*height: 150px;
+	width: 150px;*/
+	background-repeat: no-repeat;
+	float:left;
+	background-color: #BD0D06;
+	display: block;
+}
+.profile-item {
+	border-right: solid white 1px;
+	border-bottom: solid white 1px;
+	background-image: url("images/profile.png");
+	background-size: 100% 100%;
+}
+
+.appt-item {
+	border-left: solid white 1px;
+	border-bottom: solid white 1px;
+	background-image: url("images/calendar.png");	
+	background-size: cover;
+}
+
+.meds-item {
+	border-right: solid white 1px;
+	border-top: solid white 1px;
+	background-image: url("images/medicine.png");
+	background-size: cover;
+}
+
+.vaccines-item {
+	border-left: solid white 1px;
+	border-top: solid white 1px;
+	background-image: url("images/vaccine.png");
+	background-size: cover;	
+}
+
+.clear-left {
+	clear: left
+}
