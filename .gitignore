@@ -1,5 +1,8 @@
 *.py[cod]
 
+# virtualenv artifacts
+venv
+
 # Django stuff
 *.log
 *.pot
