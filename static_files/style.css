@@ -52,7 +52,7 @@
 	width: 100%;
 }
 		
-.homepage-icons .ui-btn-up-c:visited, .ui-btn-up-c a.ui-link-inherit {
+.homepage-icons .ui-btn-up-c, .ui-btn-up-c a.ui-link-inherit {
 	color: white;
 }
 
