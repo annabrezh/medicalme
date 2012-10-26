@@ -64,56 +64,6 @@
 	margin: auto;
 }
 
-/*
-
-.ex .ui-btn .ui-btn-inner { 
-	padding-top: 40px !important;
-}
-.ex .ui-btn .ui-icon { 
-	width: 30px!important; 
-	height: 30px!important; 
-	margin-left: -15px !important; 
-	box-shadow: none!important; 
-	-moz-box-shadow: none!important; 
-	-webkit-box-shadow: none!important; 
-	-webkit-border-radius: 0 !important; 
-	border-radius: 0 !important; 
-}
-		
-
-
-#profile-item .ui-icon { 
-background:  url("images/profile.png") 50% 50% no-repeat; 
-background-size: 24px 22px; }
-
-.profile-item {
-	border-right: solid white 1px;
-	border-bottom: solid white 1px;
-	background-image: url("images/profile.png");
-	background-size: 100% 100%;
-}
-
-.appt-item {
-	border-left: solid white 1px;
-	border-bottom: solid white 1px;
-	background-image: url("images/calendar.png");	
-	background-size: cover;
-}
-
-.meds-item {
-	border-right: solid white 1px;
-	border-top: solid white 1px;
-	background-image: url("images/medicine.png");
-	background-size: cover;
-}
-
-.vaccines-item {
-	border-left: solid white 1px;
-	border-top: solid white 1px;
-	background-image: url("images/vaccine.png");
-	background-size: cover;	
-}*/
-
 .clear-left {
 	clear: left
 }
