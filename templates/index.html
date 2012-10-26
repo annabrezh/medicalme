@@ -14,19 +14,22 @@
     
     <!-- Home Page -->
     <div data-role="page" id="home">
-      <div data-role="header" data-theme="c" data-position="fixed">
-        <center style="color: red; font-size: 40px;">MedicalMe</center>
+      <div data-role="header" data-theme="c" data-position="fixed" class="app-title">
+       MedicalMe
         <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext" class="ui-btn-right">Settings</a>
       </div>
 
-      <div data-role="content">
-        <ul data-role="listview" id="icon-listview" data-inset="true" >
-          <li class="profile-item navi-item" ><a href="#profile">Profile</a></li>
-          <li class="appt-item navi-item"><a href="#appt">Appointments</a></li>
-          <li class="meds-item navi-item clear-left"><a href="#meds">Medication</a></li>
-          <li class="vaccines-item navi-item"><a href="#vaccines">Vaccines</a></li>
-        </ul>
-      </div> <!-- end content -->
+      <div data-role="content" data-id="samebar" class="homepage-icons" data-tap-toggle="false">
+		<div data-role="navbar" class="homepage-icons" data-grid="c">
+			<ul>
+				<li><a href="#profile" id="profile-icon" data-icon="custom">Profile</a></li>
+				<li><a href="#appt" id="appt-icon" data-icon="custom">Appointments</a></li>
+				<li class="clear-left"><a href="#meds" id="meds-icon" data-icon="custom">Medications</a></li>
+				<li><a href="#vaccines" id="vaccines-icon" data-icon="custom">Vaccines</a></li>
+			</ul>
+		</div>
+	</div>
+      <!-- end content -->
 
       <div data-role="footer" data-theme="c" data-position="fixed">
         <center><span><a href="#about" style="text-decoration: none; color: black; font-size: 12px; font-style: italic;">(c) 2012 MedicalMe</a></span></center>
