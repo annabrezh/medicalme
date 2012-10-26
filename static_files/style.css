@@ -13,8 +13,8 @@
 }
 .homepage-icons .ui-btn .ui-btn-inner { 
 	padding: 10px !important; 
-	width: 145px;
-	height: 145px;
+	width: 137px;
+	height: 137px;
 	background-color: #BD0D06;
 }
 .homepage-icons .ui-btn .ui-icon {
@@ -74,7 +74,7 @@
 }
 
 .homepage-icons .ui-btn-text {
-	font-size: large;
+	font-size: medium;
 }
 
 .ui-grid-c .ui-block-a, .ui-grid-c .ui-block-b, .ui-grid-c .ui-block-c, .ui-grid-c .ui-block-d {
@@ -87,7 +87,7 @@
 	margin-right: auto;
 	position: relative;
 	vertical-align: middle;
-	width: 346px;
+	width: 320px;
 	overflow: hidden;
 }
 
