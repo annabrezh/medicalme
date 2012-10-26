@@ -24,6 +24,7 @@
 	border-radius: 0 !important; 
 	left: 0px;
 	right: 0px;
+	top: 10px;
 	margin: 10px;
 }
 
@@ -46,6 +47,10 @@
 #vaccines-icon .ui-icon { 
 	background:  url("images/vaccine.png") no-repeat;  
 }
+
+.homepage-icons .ui-btn {
+	width: 100%;
+}
 		
 .homepage-icons .ui-btn-up-c:visited, .ui-btn-up-c a.ui-link-inherit {
 	color: white;
@@ -59,10 +64,18 @@
 	text-shadow: 0 3px 0 #030303;
 }
 
+.homepage-icons .ui-btn-text {
+	font-size: large;
+}
+
 .abs-container {
 	position: absolute;
-	margin: auto;
 }
+
+.rel-container {
+}
+
+
 
 .clear-left {
 	clear: left
