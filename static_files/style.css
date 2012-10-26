@@ -14,8 +14,8 @@
 	background-color: #BD0D06;
 }
 .homepage-icons .ui-btn .ui-icon {
-	width: 150px !important; 
-	height: 150px !important;
+	width: 100% !important; 
+	height: 100% !important;
 	
 	 box-shadow: none !important;
 	  -moz-box-shadow: none !important;
@@ -26,75 +26,43 @@
 	right: 0px;
 	margin: 10px;
 }
+
+.homepage-icons .ui-icon {
+	margin-left: 0px;
+	top: 0px;
+	background-size: 100%; 
+}
+
 #profile-icon .ui-icon { 
-	background:  url("images/profile.png") 50% 50% no-repeat; 
-	background-size: 150px; 
+	background:  url("images/profile.png") no-repeat; 
+	
 }
 #appt-icon .ui-icon { 
-	background: url("images/calendar.png") 50% 50% no-repeat; 
-	background-size: 150px; 
+	background: url("images/calendar.png") no-repeat; 
 }
 #meds-icon .ui-icon { 
-	background:  url("images/medicine.png") 50% 50% no-repeat; 
-	background-size: 150px;  
+	background:  url("images/medicine.png") no-repeat; 
 }
 #vaccines-icon .ui-icon { 
-	background:  url("images/vaccine.png") 50% 50% no-repeat;  
-	background-size: 150px;  
+	background:  url("images/vaccine.png") no-repeat;  
 }
 		
-
-
-
-/*
-
-.ex .ui-btn .ui-btn-inner { 
-	padding-top: 40px !important;
-}
-.ex .ui-btn .ui-icon { 
-	width: 30px!important; 
-	height: 30px!important; 
-	margin-left: -15px !important; 
-	box-shadow: none!important; 
-	-moz-box-shadow: none!important; 
-	-webkit-box-shadow: none!important; 
-	-webkit-border-radius: 0 !important; 
-	border-radius: 0 !important; 
-}
-		
-
-
-#profile-item .ui-icon { 
-background:  url("images/profile.png") 50% 50% no-repeat; 
-background-size: 24px 22px; }
-
-.profile-item {
-	border-right: solid white 1px;
-	border-bottom: solid white 1px;
-	background-image: url("images/profile.png");
-	background-size: 100% 100%;
+.homepage-icons .ui-btn-up-c:visited, .ui-btn-up-c a.ui-link-inherit {
+	color: white;
 }
 
-.appt-item {
-	border-left: solid white 1px;
-	border-bottom: solid white 1px;
-	background-image: url("images/calendar.png");	
-	background-size: cover;
+.homepage-icons .ui-btn-hover-c {
+	background-color: #92302C;
 }
 
-.meds-item {
-	border-right: solid white 1px;
-	border-top: solid white 1px;
-	background-image: url("images/medicine.png");
-	background-size: cover;
+.homepage-icons .ui-btn-up-c {	
+	text-shadow: 0 3px 0 #030303;
 }
 
-.vaccines-item {
-	border-left: solid white 1px;
-	border-top: solid white 1px;
-	background-image: url("images/vaccine.png");
-	background-size: cover;	
-}*/
+.abs-container {
+	position: absolute;
+	margin: auto;
+}
 
 .clear-left {
 	clear: left
