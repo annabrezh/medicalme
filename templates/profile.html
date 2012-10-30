@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>MedicalMe</title>   
+    
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="../static_files/style.css" type="text/css" />
+    <link rel="stylesheet" href="../static_files/appt-style.css" type="text/css" />
+
+		<!-- <link rel="stylesheet" href="jquery.ui.datepicker.mobile.css" /> 
+		<script src="jQuery.ui.datepicker.js"></script>
+		<script src="jquery.ui.datepicker.mobile.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="../static_files/js/appt.js"></script>
+  </head>
+  
+  <body>
+    <!-- Profile Page -->
+    <div data-role="page" id="profile">
+      <div data-role="header" data-theme="c" data-position="fixed">
+        <h1>Profile</h1>
+        <a href="./" data-role="button" data-icon="arrow-l" data-iconpos="left">Back</a>
+        <a href="index.html" data-role="button" data-icon="home" data-iconpos="right">Home</a>
+      </div>
+      <div data-role="content">	
+		<p> To be implemented: Profile for user </p>
+	    <form action="#" method="post">
+		  <div data-role="fieldcontain">
+	        <label for="foo">Name:</label>
+	        <input type="text" name="name" id="foo" value=""  />
+		  </div>
+	
+		  <div data-role="fieldcontain">
+		    <fieldset data-role="controlgroup">
+	    	  <legend>Gender:</legend>
+	          <input type="radio" name="gender" id="radio-active" value="f" />
+	          <label for="radio-active">Female</label>
+	
+	          <input type="radio" name="gender" id="radio-disable" value="m" />
+	          <label for="radio-disable">Male</label>
+	        </fieldset>
+	      </div>
+	      
+		 
+	
+	      
+	
+		  <div data-role="fieldcontain">
+			<label for="select-choice-x" class="select">Date of Birth:</label>
+			<select name="select-month" id="select-choice-x" >
+			  <option></option>
+			  <option value="jan">January</option>
+			  <option value="feb">February</option>
+			  <option value="mar">March</option>
+			  <option value="april">April</option>
+			  <option value="may">May</option>
+			  <option value="june">June</option>
+			  <option value="july">July</option>
+			  <option value="aug">August</option>
+			  <option value="sept">September</option>
+			  <option value="oct">October</option>
+			  <option value="nov">November</option>
+			  <option value="dec">December</option>
+			</select>
+			<select name="select-day" id="select-choice-y" >
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+		  </div>
+		  <div class="ui-block-b"><a href="#" data-role="button" data-theme="a">Save</a></div>
+
+	    </form>
+	  </div>    <!-- end content -->
+    
+  <!-- end content -->
+    
+    
+  </body>
+</html>
